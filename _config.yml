@@ -1,0 +1,32 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: My Jupyter Book # 书的标题 左侧边栏中显示
+author: Zuo Xiao Xian 
+logo: logo.png # 定义图书徽标图像文件的路径（它也会显示在侧边栏中）
+
+# 强制在每个生成上重新执行笔记本。
+# See https://jupyterbook.org/content/execute.html
+execute: # 包含控制执行和缓存的配置选项集合
+  execute_notebooks: force
+
+# 定义PDF构建的latex输出文件的名称
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# 添加bibtex文件，以便我们可以创建引文
+bibtex_bibfiles:
+  - references.bib
+
+# 有关该书在网络上的位置的信息
+repository:
+  url: https://github.com/executablebooks/jupyter-book  # 你的书的在线位置
+  path_to_book: docs  # 书籍的可选路径，相对于存储库根
+  branch: master  # 创建链接时应使用存储库的哪个分支（可选）
+
+# 将GitHub按钮添加到您的书中
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
