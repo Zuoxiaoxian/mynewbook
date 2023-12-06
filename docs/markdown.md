@@ -1,16 +1,16 @@
 # Markdown Files
 
-Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
-in regular markdown files (`.md`), you'll write in the same flavor of markdown
-called **MyST Markdown**.
-This is a simple file to help you get started and show off some syntax.
+无论您是用Jupyter Notebooks(`.ipynb`)还是
+在常规markdown文件(`.md`)中，您将使用相同风格的markdown进行编写
+名为**MyST Markdown**。
+这是一个简单的文件，可以帮助您入门并展示一些语法。
 
 ## What is MyST?
 
-MyST stands for "Markedly Structured Text". It
-is a slight variation on a flavor of markdown called "CommonMark" markdown,
-with small syntax extensions to allow you to write **roles** and **directives**
-in the Sphinx ecosystem.
+MyST代表“标记结构化文本”。它
+是一种叫做"CommonMark"降价的降价风格的轻微变体，
+使用小的语法扩展，允许您编写**角色**和**指令**
+在狮身人面像生态系统中。
 
 For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html).
 
@@ -29,7 +29,7 @@ Here is a "note" directive:
 Here is a note
 ```
 
-It will be rendered in a special box when you build your book.
+当你构建你的书时，它会被呈现在一个特殊的盒子里。
 
 Here is an inline directive to refer to a document: {doc}`markdown-notebooks`.
 
